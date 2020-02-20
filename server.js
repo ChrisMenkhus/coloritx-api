@@ -9,11 +9,11 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const connection = {
-    host: 'localhost',
+    host: 'ec2-52-23-14-156.compute-1.amazonaws.com',
     port: 5432,
-    database: 'coloritx',
-    user: 'postgres',
-    password: '3p1d3m1c'
+    database: 'd45570el8gjtg9',
+    user: 'gomivheunvvzcv',
+    password: 'adb36150a22523ae17c501471649db6a2bb68865ade44261d16f456d02e9a424'
 };
 
 const db = pgp(connection);
