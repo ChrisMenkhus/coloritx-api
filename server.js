@@ -20,6 +20,8 @@ const db = pgp(connection);
 
 //LOGIN
 
+app.get('/', (req, res) => { res.send('it is working') })
+
 app.post('/register', (req, res) => {
 	const { email, password, guest, name } = req.body;
 	const uuid = uuidv4();
