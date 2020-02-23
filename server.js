@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const connection = {
-    host: 'ec2-52-23-14-156.compute-1.amazonaws.com',
+    host: 'process.env.DATABASE_URL',
     port: 5432,
     database: 'd45570el8gjtg9',
     user: 'gomivheunvvzcv',
